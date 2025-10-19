@@ -29,6 +29,6 @@
     實體元件測試 MyDatabaseTester.kt - 以記憶體模擬的方式測試Room資料庫
 
 ## 截圖
-![pokemon_list]("pokemon_list.png")
-![pokemon_detail]("pokemon_detail.png")
-![resume_list]("pokemon_resume_list.png")
+[pokemon_list]("pokemon_list.png")
+[pokemon_detail]("pokemon_detail.png")
+[resume_list]("pokemon_resume_list.png")
