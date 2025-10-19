@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/fragment_pokemon_list">
+
+    <fragment
+        android:id="@+id/fragment_pokemon_list"
+        android:name="tw.com.poke.api.pokemon.PokemonListFragment"
+        android:label="fragment_pokemon_list">
+        <action
+            android:id="@+id/action_list_to_item"
+            app:destination="@id/fragment_pokemon_item" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragment_pokemon_item"
+        android:name="tw.com.poke.api.pokemon.PokemonDetailFragment"
+        android:label="fragment_pokemon_item">
+        <argument
+            android:name="pokemon"
+            app:argType="tw.com.poke.api.pokemon.PokemonListItem"
+            app:nullable="false" />
+    </fragment>
+
+</navigation>

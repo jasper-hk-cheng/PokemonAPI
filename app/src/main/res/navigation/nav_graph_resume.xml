@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph_resume"
+    app:startDestination="@id/fragment_resume_list">
+
+    <fragment
+        android:id="@+id/fragment_resume_list"
+        android:name="tw.com.poke.api.resume.ResumeListFragment"
+        android:label="fragment_resume_list" />
+
+</navigation>

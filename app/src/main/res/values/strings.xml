@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">PokemonAPI</string>
+    <string name="tab_text_pokemon_list">pokemon清單</string>
+    <string name="tab_text_browser_record">瀏覽紀錄</string>
+</resources>
